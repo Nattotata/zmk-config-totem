@@ -105,13 +105,6 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
-
-        svc: svc {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LT &kp S &kp C &kp R &kp I &kp P &kp T &kp SPACE &kp L &kp A &kp N &kp G &kp EQUAL &kp DQT &kp T &kp S &kp DQT &kp GT &kp RET &kp I &kp M &kp P &kp O &kp R &kp T &kp SPACE &kp LBRC &kp SPACE &kp C &kp N &kp SPACE &kp RBRC &kp SPACE &kp F &kp R &kp O &kp M &kp SPACE &kp DQT &kp DLLR &kp L &kp I &kp B &kp FSLH &kp U &kp T &kp I &kp L &kp S &kp DQT &kp SEMI &kp RET &kp RET &kp C &kp O &kp N &kp S &kp T &kp SPACE &kp LBRC &kp SPACE &kp C &kp L &kp A &kp S &kp S &kp COLON &kp SPACE &kp C &kp L &kp A &kp S &kp S &kp LS(N) &kp A &kp M &kp E &kp SPACE &kp EQUAL &kp SPACE &kp DQT &kp DQT &kp SPACE &kp RBRC &kp SPACE &kp EQUAL &kp SPACE &kp DLLR &kp P &kp R &kp O &kp P &kp S &kp LPAR &kp RPAR &kp SEMI &kp RET &kp LT &kp FSLH &kp S &kp C &kp R &kp I &kp P &kp T &kp GT &kp RET &kp RET &kp LT &kp D &kp I &kp V &kp SPACE &kp C &kp L &kp A &kp S &kp S &kp EQUAL &kp LBRC &kp C &kp N &kp LPAR &kp LBKT &kp C &kp L &kp A &kp S &kp S &kp LS(N) &kp A &kp M &kp E &kp RBKT &kp RPAR &kp RBRC &kp GT &kp RET &kp LT &kp FSLH &kp D &kp I &kp V &kp GT>;
-            label = "SVC";
-        };
     };
 
     keymap {
@@ -162,7 +155,7 @@
             bindings = <
         &kp EXCLAMATION  &kp AT_SIGN  &kp HASH               &kp DOLLAR    &kp PERCENT        &kp BSLH  &kp N7           &kp N8    &kp N9  &kp COMMA
         &kp PLUS         &kp EQUAL    &kp UNDERSCORE         &kp MINUS     &kp CARET          &kp N0    &kp N4           &kp N5    &kp N6  &kp DOT
-&trans  &svc             &trans       &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp AMPERSAND      &kp SEMI  &kp N1           &kp N2    &kp N3  &kp FSLH   &trans
+&trans  &trans           &trans       &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp AMPERSAND      &kp SEMI  &kp N1           &kp N2    &kp N3  &kp FSLH   &trans
                                       &kp LGUI               &kp SPACE     &lt 3 BACKSPACE    &trans    &kp RIGHT_SHIFT  &kp RALT
             >;
 
