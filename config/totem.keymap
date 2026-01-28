@@ -88,11 +88,6 @@
             bindings = <&kp GRAVE>;
             key-positions = <23 24>;
         };
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <8 9>;
-        };
     };
 
     macros {
@@ -138,9 +133,9 @@
         navigation {
             label = "NAVI";
             bindings = <
-        &kp BACKSPACE  &kp LC(LS(TAB))  &kp LC(TAB)  &trans              &kp C_VOLUME_UP      &kp HOME     &kp PG_DN  &kp PG_UP   &kp END     &kp ENTER
-        &kp LCTRL      &kp LGUI         &kp LALT     &mt LEFT_SHIFT TAB  &kp K_VOLUME_DOWN    &kp LEFT     &kp DOWN   &kp UP      &kp RIGHT   &trans
-&trans  &kp LC(C)      &kp LC(LS(C))    &kp LC(V)    &kp LC(LS(V))       &kp K_PLAY_PAUSE     &kp INSERT   &kp DEL    &kp K_PREV  &kp K_NEXT  &trans     &trans
+        &kp BACKSPACE  &kp LC(LS(TAB))  &kp LC(TAB)  &trans              &kp C_VOLUME_UP      &kp HOME     &kp PG_DN  &kp PG_UP   &kp END     &kp BACKSPACE
+        &kp LCTRL      &kp LGUI         &kp LALT     &mt LEFT_SHIFT TAB  &kp K_VOLUME_DOWN    &kp LEFT     &kp DOWN   &kp UP      &kp RIGHT   &kp ENTER
+&trans  &kp LC(C)      &kp LC(LS(C))    &kp LC(V)    &kp LC(LS(V))       &kp K_PLAY_PAUSE     &kp INSERT   &kp DEL    &kp K_PREV  &kp K_NEXT  &trans         &trans
                                         &kp LGUI     &kp LCTRL           &trans               &lt 3 SPACE  &kp LSHFT  &kp RALT
             >;
         };
