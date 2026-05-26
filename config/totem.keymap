@@ -171,10 +171,10 @@
 
         w3_grid {
             bindings = <
-           &kp Q  &kp W  &kp E           &kp R      &kp T          &trans  &trans  &trans  &trans  &trans
-           &kp A  &kp S  &kp D           &kp F      &kp G          &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp Z  &kp X  &kp C           &kp V      &kp B          &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp LEFT_SHIFT  &lt 8 TAB  &lt 7 SPACE    &trans  &trans  &trans
+           &kp Q  &kp W  &kp E                   &kp R      &kp T          &trans  &trans  &trans  &trans  &trans
+           &kp A  &kp S  &kp D                   &kp F      &kp G          &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C                   &kp V      &kp B          &trans  &trans  &trans  &trans  &trans  &trans
+                         &mt LEFT_SHIFT LS(TAB)  &lt 8 TAB  &lt 7 SPACE    &trans  &trans  &trans
             >;
         };
 
