@@ -137,7 +137,7 @@
             bindings = <
         &kp LEFT_SHIFT    &kp LC(LS(TAB))   &kp LC(TAB)       &kp LEFT_SHIFT    &kp C_VOLUME_UP      &kp HOME     &kp PG_DN  &kp PG_UP        &kp END      &kp BACKSPACE
         &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)           &kp LEFT     &kp DOWN   &kp UP           &kp RIGHT    &kp ENTER
-&trans  &kp LC(C)         &kp LC(LS(C))     &kp LC(V)         &kp LC(LS(V))     &kp C_VOLUME_DOWN    &kp INSERT   &kp DEL    &kp LS(LC(TAB))  &kp LS(TAB)  &trans         &trans
+&trans  &kp LC(C)         &kp LC(LS(C))     &kp LC(V)         &kp LC(LS(V))     &kp C_VOLUME_DOWN    &kp INSERT   &kp DEL    &kp LS(LC(TAB))  &kp LC(TAB)  &trans         &trans
                                             &trans            &trans            &trans               &lt 3 SPACE  &trans     &trans
             >;
         };
