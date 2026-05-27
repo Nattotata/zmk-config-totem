@@ -189,10 +189,10 @@
 
         w3_camera {
             bindings = <
-        &trans    &kp UP_ARROW  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &kp F1    &kp F2        &kp F3     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans     &trans  &trans    &trans  &trans  &trans
+        &trans    &kp UP_ARROW  &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2    &trans  &trans  &trans  &trans  &trans
+        &kp LEFT  &kp DOWN      &kp RIGHT  &kp KP_NUMBER_3  &kp KP_NUMBER_4    &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1    &kp F2        &kp F3     &kp KP_NUMBER_5  &kp KP_NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans     &trans           &trans             &trans  &trans  &trans
             >;
         };
     };
