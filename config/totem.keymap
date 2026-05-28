@@ -61,9 +61,9 @@
             key-positions = <8 5>;
         };
 
-        quotes {
+        apostrophe {
             bindings = <&kp SQT>;
-            key-positions = <8 6>;
+            key-positions = <15 18>;
         };
 
         mouse {
@@ -89,6 +89,21 @@
         back_to_work {
             bindings = <&to 0>;
             key-positions = <16 17 18>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <6 8>;
+        };
+
+        quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <16 18>;
+        };
+
+        backticks {
+            bindings = <&kp GRAVE>;
+            key-positions = <29 27>;
         };
     };
 
