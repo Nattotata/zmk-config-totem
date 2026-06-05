@@ -38,32 +38,32 @@
 
         left_square {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <11 13>;
+            key-positions = <11 18>;
         };
 
         right_square {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <11 14>;
+            key-positions = <12 17>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <22 24>;
+            key-positions = <22 29>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <22 25>;
+            key-positions = <23 28>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <8 5>;
+            key-positions = <3 6>;
         };
 
         apostrophe {
             bindings = <&kp SQT>;
-            key-positions = <15 18>;
+            key-positions = <24 27>;
         };
 
         mouse {
@@ -78,12 +78,12 @@
 
         curly_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <1 3>;
+            key-positions = <1 8>;
         };
 
         curly_brace_close {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <1 4>;
+            key-positions = <2 7>;
         };
 
         back_to_work {
@@ -93,17 +93,12 @@
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <6 8>;
-        };
-
-        quotes {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <16 18>;
+            key-positions = <13 16>;
         };
 
         backticks {
             bindings = <&kp GRAVE>;
-            key-positions = <29 27>;
+            key-positions = <27 24>;
         };
     };
 
