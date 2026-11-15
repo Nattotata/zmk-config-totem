@@ -13,6 +13,41 @@ TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/
 
 ![TOTEM layout](/docs/images/TOTEM_layout.svg)
 
+## KEYMAP PREVIEW
+
+`tools/keymap.py` reads `config/totem.keymap` and prints Unicode keycap tables in
+the terminal. It needs Python 3.10+ and no third-party packages.
+
+```sh
+just keymap                 # fzf picker, or all layers when output is piped
+just keymap BASE            # print one layer
+just keymap-all             # print every layer
+just keymap-list            # list layer names and indices
+just keymap-combos          # print the combo table
+just keymap-svg             # write one SVG per layer to docs/images/layers
+just keymap-image           # render a layer with chafa (fzf picker)
+```
+
+The raw command is also available:
+
+```sh
+python3 tools/keymap.py --all
+python3 tools/keymap.py BASE --svg
+python3 tools/keymap.py NAVI --chafa
+python3 tools/keymap.py --combos
+```
+
+`fzf` and `chafa` are optional. Without `fzf`, the script prints all layers.
+Without `chafa`, use `--svg` to write images you can open in a browser.
+
+Modifiers print as words (`ctrl`, `alt`, `shift`, `meta`); `meta` is the
+GUI/Super/Cmd key. When a key stacks two modifiers, they collapse to their
+first letters (`S`, `C`, `A`, `M`) and a legend is printed under that layer.
+
+Each layer also lists its combos using that layer's key names instead of raw
+`key-positions` numbers, so you can see which keys to press. Transparent keys
+fall through to the layer below. Pass `--no-combos` to hide the combo list.
+
 ## HOW TO USE
 
 - fork this repo
